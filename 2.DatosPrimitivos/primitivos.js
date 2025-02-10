@@ -70,7 +70,7 @@ let prueba2=+(0.1+1.2).toFixed(2); //Sera un numero
 //Object Wrapper es un objeto que envuelve a un valor primitivo
 //cuando queremos accer a una propiedad o llamar a un metodo del mismo
 let nom="Pedro";
-nom.toUpperCase;
+nom.toUpperCase();
 
 //Cuando tenemos variables con null o undefined no podremos
 //aceder a los metodos de los objetos (Object Wrapper)
