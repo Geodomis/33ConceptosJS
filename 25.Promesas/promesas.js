@@ -30,9 +30,9 @@ const doAsyncStuffWithPromises=(numero1, numero2) =>{
             resolve(resultado)
         },500)
     })
-}
+};
 
 doAsyncStuffWithPromises(1,3)
-    .then(result=>console.log(result))
+    .then(result=>console.log(result));
 
 
